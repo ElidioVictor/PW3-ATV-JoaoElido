@@ -1,9 +1,9 @@
-import prouduto1 from '../img/produto1.jpg'
+import prouduto1 from '../img/eloJob.png';
 
 function ProdutoImagem() {
     return(
         <div className="produtoImagem">
-            <img src={prouduto1} alt="Elo joob para LOL e Valoant" width={400}/>
+            <img className="imagem" src={prouduto1} alt="Elo joob para LOL e Valoant"  />
         </div>
     )
 }

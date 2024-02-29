@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  
 }
 
 @keyframes App-logo-spin {
@@ -40,16 +40,18 @@
 .card{
   width: 75%;
   margin: 0 auto;
+  margin-top: 100px;  
 }
 
 .produtoImagem{
   margin: 0 auto;
-  height: 400px;
+  margin-left: 35%;
+  float: left;
 }
 
-.titulo{
-  background-color: #61dafb;
-  font-family: 'Times New Roman', Times, serif;
+.produtoInfo{
+  float: left;
+  margin-left: 150px;
   
 }
 
@@ -59,5 +61,50 @@
 }
 
 .vendedor{
+  font-family: sans-serif;
   text-align: left;
+  float: left;
+  margin-right: 25px;
+}
+
+.tipo{
+  font-family: sans-serif;
+  text-align: center;
+  float: none;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.nota{
+  font-family: sans-serif;
+  text-align: right;
+  margin-left: 30px;
+}
+
+.espaco{
+  margin-top: 40px;;
+}
+
+.titulo{
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.descricao{
+  text-align: justify;
+  float: left;
+  font-family: sans-serif;
+  text-wrap:wrap;
+  padding: 1%;
+}
+
+.descricaoBox{
+  align-items: baseline;
+  width: 700px;
+  
+}
+
+.imagem{
+  width: 400px;
+  height: 650px;
 }
